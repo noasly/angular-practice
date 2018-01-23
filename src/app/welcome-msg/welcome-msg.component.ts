@@ -9,8 +9,8 @@ import { I18nSupportService } from '../i18n-support.service';
 
 export class WelcomeMsgComponent implements OnInit, AfterViewInit {
     title = 'app';
-    userName = 'noasly';
-    dogName = 'a';
+    userName = '';
+    dogName = '';
     welcomeMsg = '';
     private valid = false;
     private static CHK_KEYUP_WAIT_SEC = 5000;
